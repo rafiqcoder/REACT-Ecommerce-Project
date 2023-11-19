@@ -1,0 +1,194 @@
+{
+  "editor.fontFamily": "JetBrains Mono,Fira Code, Operator Mono, Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.wordWrap": "on",
+  "workbench.editor.tabSizing": "shrink",
+  "editor.fontSize": 16,
+  "terminal.integrated.fontSize": 13,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+  // cursor
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "expand",
+
+  // // config related to code formatting
+  // "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // "editor.formatOnSave": true,
+  // "[javascript]": {
+  //   "editor.formatOnSave": false,
+  //   "editor.defaultFormatter": null
+  // },
+  // "[javascriptreact]": {
+  //   "editor.formatOnSave": false,
+  //   "editor.defaultFormatter": null
+  // },
+  // "editor.codeActionsOnSave": {
+  //   "source.fixAll": true,
+  //   "source.fixAll.eslint": true,
+  //   "source.fixAll.tslint": true,
+  //   "source.organizeImports": true
+  // },
+  // "eslint.alwaysShowStatus": true,
+  // terminal customization
+  "workbench.colorCustomizations": {
+    "terminal.background": "#1D2021",
+    "terminal.foreground": "#A89984",
+    "terminalCursor.background": "#A89984",
+    "terminalCursor.foreground": "#A89984",
+    "terminal.ansiBlack": "#1D2021",
+    "terminal.ansiBlue": "#0D6678",
+    "terminal.ansiBrightBlack": "#665C54",
+    "terminal.ansiBrightBlue": "#0D6678",
+    "terminal.ansiBrightCyan": "#8BA59B",
+    "terminal.ansiBrightGreen": "#95C085",
+    "terminal.ansiBrightMagenta": "#8F4673",
+    "terminal.ansiBrightRed": "#FB543F",
+    "terminal.ansiBrightWhite": "#FDF4C1",
+    "terminal.ansiBrightYellow": "#FAC03B",
+    "terminal.ansiCyan": "#8BA59B",
+    "terminal.ansiGreen": "#95C085",
+    "terminal.ansiMagenta": "#8F4673",
+    "terminal.ansiRed": "#FB543F",
+    "terminal.ansiWhite": "#A89984",
+    "terminal.ansiYellow": "#FAC03B"
+  },
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.snippetSuggestions": "top",
+  "editor.renderControlCharacters": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "explorer.confirmDelete": false,
+  "cSpell.userWords": ["RAFIQ", "keyframes", "noopener", "noreferrer"],
+  "git.enableSmartCommit": true,
+  "breadcrumbs.enabled": false,
+  "editor.renderWhitespace": "none",
+  "editor.linkedEditing": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.cursorWidth": 3,
+  "editor.mouseWheelZoom": true,
+  "editor.cursorSurroundingLines": 2,
+  "terminal.integrated.fontFamily": "monospace",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+
+  "emmet.triggerExpansionOnTab": true,
+  "files.associations": {
+    "*html": "html",
+    "*.jsx": "javascriptreact"
+  },
+  "emmet.useInlineCompletions": true,
+
+  "editor.formatOnType": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+
+  // "emmet.triggerExpansionOnTab": true,
+  "emmet.showSuggestionsAsSnippets": true,
+  "html.format.indentHandlebars": true,
+  "css.format.braceStyle": "expand",
+  "css.format.newlineBetweenSelectors": false,
+  // "editor.formatOnSave": true,
+  // "workbench.iconTheme": "material-icon-theme",
+
+  // "editor.wordWrap": "on",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  // "[javascript]": {
+  // "editor.formatOnSave": false
+  // },
+  "[javascriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.organizeImports": true
+  },
+  "eslint.alwaysShowStatus": true,
+  "javascript.validate.enable": false,
+  // "prettier.disableLanguages": ["javascript", "javascriptreact"],
+  "bracketPairColorizer.colorMode": "Independent",
+  "bracketPairColorizer.independentPairColors": [
+    ["()", ["White"], "Red"],
+    ["[]", ["Orchid"], "Red"],
+    ["{}", ["LightSkyBlue"], "Red"]
+  ],
+  "workbench.iconTheme": "material-icon-theme",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+  "path-autocomplete.extensionOnImport": true,
+  "path-autocomplete.excludedItems": {
+    "**/*.js": {
+      "when": "**"
+    },
+    "**/*.jsx": {
+      "when": "**"
+    }
+  },
+  "tailwindCSS.emmetCompletions": true,
+  "workbench.editor.enablePreview": false,
+  "eslint.format.enable": true,
+  "editor.formatOnPaste": true,
+  "files.autoSave": "afterDelay",
+  "javascript.format.insertSpaceAfterCommaDelimiter": false,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
+  "workbench.sideBar.location": "right",
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "yaml": false,
+    "javascript": true
+  },
+  "editor.accessibilitySupport": "off",
+  "githubIssues.queries": [
+    {
+      "label": "My Issues",
+      "query": "default"
+    },
+    {
+      "label": "Created Issues",
+      "query": "author:${user} state:open repo:${owner}/${repository} sort:created-desc"
+    },
+    {
+      "label": "Recent Issues",
+      "query": "state:open repo:${owner}/${repository} sort:updated-desc"
+    }
+  ],
+  "workbench.settings.openDefaultKeybindings": true,
+  "html.format.contentUnformatted": "",
+  "[typescript]": {},
+  "debug.disassemblyView.showSourceCode": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "html.format.indentInnerHtml": true,
+  "editor.language.brackets": [],
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "githubPullRequests.pullBranch": "never",
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "terminal.integrated.env.windows": {},
+  "editor.minimap.autohide": true,
+  "editor.minimap.renderCharacters": false,
+  "pieces.setCopilotLocation": true,
+  "window.zoomLevel": 1,
+  "console-ninja.featureSet": "Community"
+}
